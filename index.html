@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Notifications page</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="./assets/css/jpmain.css">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main class="main">
+    <div class="container">
+      <div class="notification-wrap">
+        <div class="heading">
+          <h1>Notifications <span class="notification-count"></span></h1>
+          <button id="mark-read-button" class="link">Mark all as read</button>
+        </div>
+        <!-- .heading -->
+        <div class="content">
+
+          <div class="message message-active">
+            <div class="message-avatar">
+              <img src="./assets/images/avatar-mark-webber.webp" alt="mark-webber">
+            </div>
+            <!-- .message-avatar -->
+            <div class="message-text">
+              <p><span class="message-author"><a href="#">Mark Webber</a></span> reacted to your recent post <a href="#"
+                  class="link message-link">My
+                  first tournament today!</a><span class="new-message-indicator"></span></p>
+              <div class="message-time">
+                <span>1m ago</span>
+              </div>
+            </div>
+            <!-- .message-text -->
+
+          </div>
+          <!-- .message -->
+          <div class="message message-active">
+            <div class="message-avatar">
+              <img src="./assets/images/avatar-angela-gray.webp" alt="angela-gray">
+            </div>
+            <!-- .message-avatar -->
+            <div class="message-text">
+              <p><span class="message-author"><a href="#">Angela Gray</a></span> followed you<span
+                  class="new-message-indicator"></span>
+              </p>
+              <div class="message-time">
+                <span>5m ago</span>
+              </div>
+            </div>
+            <!-- .message-text -->
+
+          </div>
+          <!-- .message -->
+          <div class="message message-active">
+            <div class="message-avatar">
+              <img src="./assets/images/avatar-jacob-thompson.webp" alt="jacob-thompson">
+            </div>
+            <!-- .message-avatar -->
+            <div class="message-text">
+              <p><span class="message-author"><a href="#">Jacob Thompson</a></span> has joined your group <a href="#"
+                  class="link message-link">Chess Club</a><span class="new-message-indicator"></span></p>
+              <div class="message-time">
+                <span>1 day ago</span>
+              </div>
+            </div>
+            <!-- .message-text -->
+
+          </div>
+          <!-- .message -->
+          <div class="message">
+            <div class="message-avatar">
+              <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="rizky-hasanuddin">
+            </div>
+            <!-- .message-avatar -->
+            <div class="message-text message-text-has-children">
+              <p><span class="message-author"><a href="#">Rizky Hasanuddin</a></span> sent you a private message</p>
+              <div class="message-time">
+                <span>5 days ago</span>
+              </div>
+              <div class="message-text-child">
+                Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and
+                I'm already having lots of fun and improving my game.
+              </div>
+            </div>
+            <!-- .message-text -->
+          </div>
+          <!-- .message -->
+          <div class="message message-with-content">
+            <div class="message-avatar">
+              <img src="./assets/images/avatar-kimberly-smith.webp" alt="kimberly-smith">
+            </div>
+            <!-- .message-avatar -->
+            <div class="message-text">
+              <p><span class="message-author"><a href="#">Kimberly Smith</a></span> commented on your picture</p>
+              <div class="message-time">
+                <span>1 week ago</span>
+              </div>
+            </div>
+            <!-- .message-text -->
+            <div class="message-content">
+              <img src="./assets/images/image-chess.webp" alt="image-chess">
+            </div>
+          </div>
+          <!-- .message -->
+          <div class="message">
+            <div class="message-avatar">
+              <img src="./assets/images/avatar-nathan-peterson.webp" alt="nathan-peterson">
+            </div>
+            <!-- .message-avatar -->
+            <div class="message-text">
+              <p><span class="message-author"><a href="#">Nathan Peterson</a></span> reacted to your recent post <a
+                  href="#" class="link message-link">5 end-game strategies to increase your win rate</a></p>
+              <div class="message-time">
+                <span>2 weeks ago</span>
+              </div>
+            </div>
+            <!-- .message-text -->
+          </div>
+          <!-- .message -->
+          <div class="message">
+            <div class="message-avatar">
+              <img src="./assets/images/avatar-anna-kim.webp" alt="anna-kim">
+            </div>
+            <!-- .message-avatar -->
+            <div class="message-text">
+              <p><span class="message-author">Anna Kim</span> left the group <a href="#" class="link message-link">Chess
+                  Club</a></p>
+              <div class="message-time">
+                <span>2 weeks ago</span>
+              </div>
+            </div>
+            <!-- .message-text -->
+          </div>
+          <!-- .message -->
+        </div>
+        <!-- .content -->
+      </div>
+      <!-- .notification-wrap -->
+      <div class="attribution">
+        Challenge by <a class="link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
+          Mentor</a>.
+        Coded by <a class="link" href="https://www.frontendmentor.io/profile/yulich81">Julia</a>.
+      </div>
+    </div>
+  </main>
+  <script src="./assets/js/jpmain.js"></script>
+</body>
+
+</html>
