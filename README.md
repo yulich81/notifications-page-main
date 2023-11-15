@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/yulich81/notifications-page-main)
+- Live Site URL: [Netlify](https://astonishing-medovik-52b6ab.netlify.app/)
 
 ## My process
 
